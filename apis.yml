@@ -1,7 +1,26 @@
 aid: happy5
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/happy5.png
 name: Happy5
-description: Happy5 is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Happy5 is a Jakarta-based employee performance management platform, operated
+  by Happy5 For The World Pte. Ltd. and founded in 2013, that unifies goal and OKR
+  management, project tracking, and 360-degree performance reviews in one tool for
+  HR teams. It automatically surfaces the goals hit, projects delivered, and milestones
+  completed inside every performance review, and integrates with tools teams already
+  use such as Jira, Asana, Slack, and Google Sheets. Its customers span major Indonesian
+  banks, startups, and SMEs. Happy5 is a closed SaaS product and does not publish a
+  public developer API, OpenAPI definition, or client SDKs; this profile captures its
+  verified public identity and web properties as a lead.
 url: https://raw.githubusercontent.com/api-evangelist/happy5/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-19'
+  method: searched
+  public-api: none
+  notes: Closed SaaS. The developer.happy5.co, docs.happy5.co, api.happy5.co, help.happy5.co
+    and app.happy5.co subdomains all serve the same single-page-app login shell (HTTP
+    200 for every path via SPA catch-all, not real files). No OpenAPI/Swagger, no
+    .well-known files, no llms.txt, and no first-party SDKs were found (github.com/Happy-5
+    is a verified org holding forks and an internal Rails kit). Enrichment limited
+    to verified public identity and web properties.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Performance Management
+- OKRs
+- Human Resources
+- Employee Engagement
+- Goal Management
+- Project Management
+- SaaS
+- Indonesia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +60,23 @@ maintainers:
 common:
 - type: Website
   url: https://happy5.co
+- type: About
+  url: https://www.happy5.co/about
+- type: Product
+  url: https://www.happy5.co/product
+- type: Pricing
+  url: https://www.happy5.co/pricing
+- type: Blog
+  url: https://www.happy5.co/blog
+- type: SignUp
+  url: https://app.happy5.co
+- type: TermsOfService
+  url: https://www.happy5.co/terms
+- type: PrivacyPolicy
+  url: https://www.happy5.co/privacy
+- type: GitHubOrganization
+  url: https://github.com/Happy-5
+- type: LinkedIn
+  url: https://www.linkedin.com/company/happy-five
+- type: Twitter
+  url: https://x.com/happy5apps
