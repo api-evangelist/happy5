@@ -38,7 +38,7 @@ x-enrichment:
     .well-known files, no llms.txt, and no first-party SDKs were found (github.com/Happy-5
     is a verified org holding forks and an internal Rails kit). Enrichment limited
     to verified public identity and web properties.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
